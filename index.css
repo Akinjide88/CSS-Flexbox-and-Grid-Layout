@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(14,14,14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 100px 70px 100px;
+}
+
+
+.Container {
+    background-color: white;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+} 
+
+.Container> div{
+    padding: 30px;
+    width: 150px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Sedan{
+    background-color: rgb(226,133,37);
+}
+
+.Suv{
+    background-color: rgb(1,105,114);
+}
+
+.Luxury{
+    background-color: rgb(0,64,63);
+}
